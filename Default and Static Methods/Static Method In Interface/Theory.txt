@@ -1,0 +1,12 @@
+⇒ Static Methods in Interface :-
+
+-> Till 1.7 version we were not able to create any static method in an interface but from 1.8 version we can create static methods in an interface
+-> Static methods have implementation part in the interface only
+-> Static methods are created by using "static" keyword
+
+-> Note :
+
+-> We can use public access-modifier with static method
+-> We cannot use default keyword with static method
+-> We were not able to override static methods. If we try to override it, it will be treated as different method
+-> Static methods are used to improve the shareability in interface
