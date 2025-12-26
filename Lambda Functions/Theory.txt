@@ -1,0 +1,20 @@
+ A Lambda Expression is a feature introduced in Java 8 that provides a concise way to implement the abstract method of a Functional Interface.
+ -> It represents an anonymous function, meaning a function without a name, access modifier, or return type.
+ -> Lambda expressions help in writing cleaner, shorter, and more readable code.
+
+ Key Characteristics
+-> No method name is required
+-> No return type is specified (compiler infers it)
+-> No access modifier is used
+-> Code is executed when the abstract method is called.
+
+Rules of Lambda Expression
+-> It can be used only with a functional interface
+-> The parameter type is optional (type inference)
+-> Parentheses are optional for a single parameter
+-> Curly braces and return keyword are optional for a single statement
+-> Lambda expression can take any number of parameters.
+-> Lambda expressions cannot contain instance variables
+-> If lambda expression is returning any value then we can remove return keyword.
+
+=>A Lambda Expression is an anonymous function used to implement the abstract method of a functional interface in Java 8.
