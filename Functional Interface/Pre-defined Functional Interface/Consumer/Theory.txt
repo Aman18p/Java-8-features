@@ -1,0 +1,14 @@
+Consumer:-
+
+-> Consumer is a functional interface which is present in java.util.function package.
+-> A Consumer is a functional interface introduced in Java 8 that is used to consume data.
+-> It takes one input and does not return anything (void).
+
+/* Syntax
+
+       public interface Consumer<T>
+       {
+            void accept(T t);
+            // some default methods are also present in it.
+       }
+*/

@@ -1,0 +1,20 @@
+Predicate:-
+
+-> Predicate is a functional interface which is present in java.util.function package.
+-> A Predicate is a functional interface introduced in Java 8 that is used to test a condition.
+-> It takes one input and returns a boolean value (true or false).
+-> Predicate is a functional interface in Java 8 that accepts one argument and returns a boolean value.
+-> It improves manageability of the code and also helps in unit testing.
+
+/*
+Syntax:-
+
+        public interface Predicate<T>
+        {
+            boolean test(T t);
+
+            // some default methods are also present in it.
+        }
+
+ */
+

@@ -1,0 +1,12 @@
+Supplier:-
+
+-> Supplier is a functional interface which is present in java.util.function package.
+-> A Supplier is a functional interface introduced in Java 8 that is used to supply (provide) data.
+-> It does NOT take any input, but returns a value.
+
+/* Syntax:-
+
+      public interface Supplier<R>
+      {
+           R get();
+      }

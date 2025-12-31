@@ -1,0 +1,18 @@
+Function:-
+
+-> Function is a functional interface which is present in java.util.function package.
+-> A Function is a functional interface introduced in Java 8 that is used to transform data.
+-> It takes one input and returns a result (not necessarily boolean).
+-> Function is a functional interface that takes one argument and returns a result.
+->
+
+/* Syntax:-
+
+       public interface Function<T.R>
+       {
+           R apply (T t);
+
+           // some default methods are also present in it.
+       }
+
+*/
