@@ -1,0 +1,11 @@
+⇒ Default Methods in Interface :-
+
+-> Interface can contain only abstract methods which does not have any implementation part and its implementations where provided in the implemented class
+-> But from 1.8 version, we can create default methods having implementation part in interface. And if we are not satisfied with default method implementation, then we can override that method and provide its our new implementation.
+-> Default methods are created by using "default" keyword
+
+⇒ Use of default methods :-
+
+-> If we change the interface then it will affect all the implemented classes, but by creating default methods, implemented classes will not be affected.
+
+-> By creating default methods we can provide same implementation for multiple classes in the interface which in turn reduces the number of lines of code

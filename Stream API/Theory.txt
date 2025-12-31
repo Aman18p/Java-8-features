@@ -1,0 +1,44 @@
+Stream API :-
+
+-> Stream API is related to "Collection Framework" or "Group of objects".
+-> The Stream API (introduced in Java 8) is used to process collections of data (List, Set, Map) in a functional, declarative, and readable way.
+-> It does not store data 👉 It processes data from a source.
+-> It is use to process or to perform bulk operation on Collection Object or Group of objects.
+
+Steam API Lifecycle:-
+👉 Get Stream Instance
+👉Perform Operations such as filter(), sort(), map(), etc and transform it into another stream.
+👉Perform Terminal Operation such as count(), sum() etc and produces the result.
+
+Stream Interface:-
+-> Stream is an interface which is present is java.util.stream package.
+-> Stream is an interface that represents a sequence of elements and supports aggregate operations like filter, map, and reduce.
+-> The Stream interface is part of the Java 8 Stream API and is used to process a sequence of elements in a functional style.
+
+Syntax:-
+
+    public interface Stream
+    {
+       foreach();
+       filter();
+       map();
+       collect();
+
+       sorted();
+       min();
+       max();
+       count();
+
+       // some static methods
+       of() {-}
+       empty() {-}
+       builder() {-}
+    }
+
+Why Stream API?
+
+-> Less code, more clarity
+-> No explicit loops
+-> Supports functional interfaces (Predicate, Function, Consumer)
+-> Easy filtering, mapping, sorting.
+

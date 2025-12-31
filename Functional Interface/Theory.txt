@@ -1,0 +1,22 @@
+⇒ Functional Interfaces :-
+
+-> If any interface contains only and only one abstract method, then it is known as Functional Interface
+-> To denote function interface we use "@FunctionalInterface" annotation
+
+-> Cases for Functional Interface :-
+
+We can create any number of "default" or "static" methods in functional interface but we can create only and only one abstract method.
+
+In case of inheritance if any interface have more than one abstract method, then also it will not be treated as Functional Interface.
+
+⇒ Marker Interface :-
+
+-> If any interface does not contain any abstract method, then it is known as marker interface
+-> Predefined marker interfaces are Cloneable, Serializable, Remote etc.
+
+//⇒ Annotations :-
+
+  -> Annotations are used to provide some additional information about the program.
+  -> Annotations starts with "@"
+  -> If we use or dont use annotations then there is no effect on the compiler.
+  -> Annotations provides some metadata for classes or interfaces or methods or variables or constructors.
